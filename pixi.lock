@@ -11110,7 +11110,10 @@ packages:
 - pypi: ./
   name: splinart
   version: 0.1.0
-  sha256: 5cbe1cc253b8c3d3bbcbcfd7c44a607ecb5267800369010a44cc3c84c78b1e24
+  sha256: a55b4e18ca3d8098035c5e4c6712535c77588cd40582616f87cf9f5443e5fd16
+  requires_dist:
+  - numpy
+  - matplotlib
   requires_python: '>=3.8'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/tabulate-0.9.0-pyhd8ed1ab_2.conda
