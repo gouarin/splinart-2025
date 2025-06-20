@@ -12056,7 +12056,7 @@ packages:
 - pypi: ./
   name: splinart
   version: 0.1.0
-  sha256: b09297a524d02fe72ca7f07d006ee7c19a5cebc9f1d5f21f7680a67d406588bf
+  sha256: 254bccde0812be25f37d99b01d08412e5c3bb1ce026ca9064284ab966256ae08
   requires_python: '>=3.8'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/tabulate-0.9.0-pyhd8ed1ab_2.conda
