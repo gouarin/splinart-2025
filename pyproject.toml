@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "splinart"
 dynamic = ["version"]
 requires-python = ">=3.8"
+dependencies = ["numpy", "matplotlib"]
 
 license = { file = "LICENSE" }
 
@@ -62,6 +63,7 @@ twine = { cmd = "twine upload -r testpypi dist/*", depends-on = [
     "sdist",
     "bdist",
 ] }
+
 
 [tool.pixi.dependencies]
 numpy = ">=2.0.2,<3"
